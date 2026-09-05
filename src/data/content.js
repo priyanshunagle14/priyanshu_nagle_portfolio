@@ -34,7 +34,7 @@ export const navLinks = [
 
 export const stats = [
   { value: "9.0", label: "SGPA (6th Sem)" },
-  { value: "100%", label: "MERN Stack Depth" },
+  { value: "∞", label: "Bugs Squashed" },
   { value: "Production", label: "Deployed Apps" },
 ];
 
@@ -51,12 +51,10 @@ export const skills = [
     name: "Frontend Architecture",
     tags: [
       "React.js",
-      "Next.js",
       "JavaScript (ES6+)",
       "Tailwind CSS",
       "HTML5 / CSS3",
       "Vite",
-      "Framer Motion",
       "Responsive UI",
     ],
   },
@@ -73,7 +71,7 @@ export const skills = [
     ],
   },
   {
-    name: "DevOps & Tooling",
+    name: "Tools & Workflow",
     tags: [
       "Git & GitHub",
       "Postman",
@@ -81,7 +79,7 @@ export const skills = [
       "Vercel Deployment",
       "Render",
       "Netlify",
-      "Monaco Editor API",
+
     ],
   },
 ];
@@ -92,7 +90,7 @@ export const projects = [
     title: "InterviewForge",
     url: "https://interview-forge-delta.vercel.app/",
     github: "https://github.com/priyanshunagle14",
-    image: "/assets/images/Gemini_Generated_Image_smdx8zsmdx8zsmdx.png",
+    image: "/assets/images/interview_forge.png",
     tagline: "Real-time collaborative technical interview & code execution platform",
     description:
       "A comprehensive technical interview platform featuring a real-time collaborative Monaco code editor, live multi-user synchronization with Socket.IO, automated code execution with test-case grading, JWT-based role management (interviewer/candidate), and proctoring integrity tools like fullscreen enforcement and tab-switch detection.",
@@ -110,12 +108,12 @@ export const projects = [
     url: "https://sigma-gpt-eta.vercel.app/",
     github: "https://github.com/priyanshunagle14",
     image:
-      "/assets/images/Gemini_Generated_Image_c1dfv8c1dfv8c1df-DEl-aD3j.png",
+      "/assets/images/sigma_gpt.png",
     tagline: "High-speed AI chatbot application powered by Groq LLM inference",
     description:
       "A full-stack AI conversation application built with MERN architecture and ultra-fast Groq API integration. Features persistent multi-session chat history, token-efficient prompt pipelines, dynamic markdown code formatting, and a low-latency responsive interface.",
     highlights: [
-      "Sub-500ms AI inference powered by Groq API",
+      "AI inference powered by Groq API",
       "Persistent chat history & session isolation in MongoDB",
       "Syntax-highlighted code block rendering & copy utilities",
       "Secure JWT user authentication & protected routes",
@@ -142,25 +140,25 @@ export const education = [
     degree: "B.Tech in Information Technology",
     school: "RTM Nagpur University",
     year: "2023 — 2027",
-    grade: "6th Sem SGPA: 9.15",
+    grade: "6th Sem SGPA: 9.0",
     icon: "cap",
-    details: "Core coursework in Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, and Software Engineering.",
+
   },
   {
     degree: "Higher Secondary Certificate (HSC) — Science",
     school: "Maharashtra State Board",
     year: "2023",
-    grade: "Percentage: 60.00%",
+    grade: "Percentage: 60.00 %",
     icon: "monitor",
-    details: "Specialization in Physics, Chemistry, Mathematics, and Computer Science.",
+
   },
   {
     degree: "Secondary School Certificate (SSC)",
     school: "Maharashtra State Board",
     year: "2021",
-    grade: "Percentage: 87.20%",
+    grade: "Percentage: 87.20 %",
     icon: "book",
-    details: "Strong foundational academic track record.",
+
   },
 ];
 

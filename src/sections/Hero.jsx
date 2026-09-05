@@ -112,7 +112,7 @@ export default function Hero() {
               </button>
             </MagneticButton>
 
-            <a
+            {/* <a
               href={profile.resumeUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -132,7 +132,7 @@ export default function Hero() {
                 <line x1="12" y1="15" x2="12" y2="3" />
               </svg>
               <span>Resume</span>
-            </a>
+            </a> */}
           </motion.div>
         </div>
 
@@ -168,9 +168,9 @@ export default function Hero() {
               <span className="font-mono text-muted dark:text-zinc-400">
                 {profile.location.split(",")[0]}, IN
               </span>
-              <span className="font-mono font-medium text-gold">
+              {/* <span className="font-mono font-medium text-gold">
                 CGPA 9.15
-              </span>
+              </span> */}
             </div>
           </TiltCard>
 
