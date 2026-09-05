@@ -1,468 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/static/image.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="./static/image.png" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>Priyanshu Nagle — Full Stack Developer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./style.css">
-</head>
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Priyanshu Nagle — Full Stack Web Developer (MERN)" />
+    <meta
+      name="description"
+      content="Full Stack Developer specializing in React, Node.js, Express, and MongoDB. Building scalable, high-performance web applications with clean architecture. Certified MERN developer."
+    />
+    <meta name="keywords" content="Full Stack Developer, MERN, React, Node.js, Web Developer, Nagpur" />
+    <meta name="author" content="Priyanshu Nagle" />
+    <meta name="robots" content="index, follow" />
 
-<body>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://priyanshunagle.dev/" />
+    <meta property="og:title" content="Priyanshu Nagle — Full Stack Web Developer" />
+    <meta
+      property="og:description"
+      content="Crafting scalable full-stack web applications with React, Node.js, and MongoDB. Building real-world solutions with precision engineering."
+    />
+    <meta property="og:image" content="https://priyanshunagle.dev/static/image.png" />
+    <meta property="og:site_name" content="Priyanshu Nagle Portfolio" />
+    <meta property="og:locale" content="en_US" />
 
-  <div id="cur"></div>
-  <div id="cur-r"></div>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://priyanshunagle.dev/" />
+    <meta property="twitter:title" content="Priyanshu Nagle — Full Stack Web Developer" />
+    <meta
+      property="twitter:description"
+      content="Full Stack Developer | React • Node.js • Express • MongoDB | Building production-grade web applications"
+    />
+    <meta property="twitter:image" content="https://priyanshunagle.dev/static/image.png" />
+    <meta property="twitter:creator" content="@priyanshunagle14" />
 
-  <header>
-    <a href="#home" class="logo">P<b>.</b>N</a>
-    <nav id="nav">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
-      <a href="#contact" class="nav-cta">Hire Me</a>
-    </nav>
-    <button class="ham" id="ham" aria-label="Menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </header>
+    <!-- Additional Meta -->
+    <meta name="theme-color" content="#c5a059" />
+    <meta name="msapplication-TileColor" content="#c5a059" />
 
-  <!-- HOME -->
-  <section id="home">
-    <div class="hero-wrap">
-      <div>
-        <div class="h-tag">Available for Opportunities</div>
-        <h1 class="h-title">
-          Priyanshu <br>
-          <em>Nagle</em><br>
-          Full Stack Developer
-        </h1>
-        <p class="h-sub">Building scalable web applications using React, Node.js, Express.js and MongoDB.</p>
-        <div class="h-btns">
-          <button class="btn-solid" onclick="goTo('projects')">View My Work</button>
-          <button class="btn-line" onclick="goTo('contact')">Let's Talk →</button>
-        </div>
-      </div>
-      <div class="h-photo">
-        <div class="h-chip"><span class="h-dot"></span>Open to work</div>
-        <img src="/assets/images/photo1-EkqnwwCP.jpeg" alt="Priyanshu Nagle" />
-        <!-- <div class="h-badge"><strong>1+</strong>yrs building</div> -->
-      </div>
-    </div>
-  </section>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="about-wrap">
-      <div class="about-stats rv">
-        <div class="as rv d1">
-          <div class="as-n">2+</div>
-          <div class="as-l">Projects shipped</div>
-        </div>
-        <!-- <div class="as rv d2"><div class="as-n">2</div><div class="as-l">Internships</div></div> -->
-        <div class="as rv d3">
-          <div class="as-n">∞</div>
-          <div class="as-l">Bugs squashed</div>
-        </div>
-        <div class="as rv d4">
-          <div class="as-n">9.15</div>
-          <div class="as-l">CGPA</div>
-        </div>
-      </div>
-      <div class="about-body">
-        <div class="rv">
-          <div class="sh-label">About Me</div>
-          <h2 class="sh-title">Passionate about code<br />& <em>craft.</em></h2>
-        </div>
-        <blockquote class="about-quote rv d1">"I don't just write code — I architect experiences that feel effortless to
-          use."</blockquote>
-        <p class="about-p rv d2">I'm a 4th-year Information Technology student with a strong passion for full-stack
-          development. From crafting pixel-perfect user interfaces to designing robust backend systems, I enjoy working
-          across the entire technology stack. I pay close attention to both functionality and user experience, ensuring
-          every project I build is efficient, reliable, and thoughtfully designed.</p>
-        <p class="about-p rv d2">Driven by curiosity and continuous learning, I love turning ideas into real-world
-          applications that solve problems and create meaningful impact.</p>
-        <a href="https://drive.google.com/file/d/1Uy0f9Rji2YTE3linr5Slui-ZQyXd4Qvl/view?usp=drive_link" target="_blank"
-          rel="noopener noreferrer">
-          <button class="btn-solid" style="background:var(--gold)">Download Resume →</button>
-        </a>
-      </div>
-    </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills">
-    <div class="wrap">
-      <div class="sh rv">
-        <div class="sh-label">Expertise</div>
-        <h2 class="sh-title">What I <em>bring</em> to the table.</h2>
-        <p class="sh-sub">A versatile toolkit built through real projects, late nights, and a love for building.</p>
-      </div>
-      <div class="sk-grid">
-        <div class="sk-card rv d1">
-          <div class="sk-name">Frontend</div>
-          <div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span
-              class="tag">JavaScript</span><span class="tag">React.js</span><span class="tag">Next.js</span><span
-              class="tag">Tailwind CSS</span> <span class="tag">Vite</span></div>
-        </div>
-        <div class="sk-card rv d2">
-          <div class="sk-name">Backend & Data</div>
-          <div class="tags"><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">REST
-              APIs</span><span class="tag">MongoDB</span><span class="tag">JWT</span></div>
-        </div>
-        <div class="sk-card rv d3">
-          <div class="sk-name">Tools & Workflow</div>
-          <div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS
-              Code</span><span class="tag">Postman</span><span class="tag">Vercel</span><span
-              class="tag">Netlify</span><span class="tag">Render</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects">
-    <div class="wrap">
-      <div class="sh rv">
-        <div class="sh-label">Work</div>
-        <h2 class="sh-title">Things I've <em>built.</em></h2>
-        <p class="sh-sub">Real applications solving real problems — from concept to deployment.</p>
-      </div>
-      <div class="proj-grid">
-        <div class="pc span2 rv" onclick="window.open('https://sigma-gpt-eta.vercel.app/', '_blank')">
-          <img src="/assets/images/Gemini_Generated_Image_c1dfv8c1dfv8c1df-DEl-aD3j.png" alt="SigmaGPT" />
-          <div class="pc-body">
-            <div class="pc-num">1</div>
-            <div class="pc-title">SigmaGPT</div>
-            <div class="pc-desc">SigmaGPT A full-stack AI chatbot built with MERN and Groq API, featuring real-time AI
-              conversations, persistent chat history, session management, and a responsive user interface optimized for
-              fast and seamless interactions.</div>
-            <div class="pc-tags"><span class="pt">React.js</span><span class="pt">MongoDB</span><span
-                class="pt">JavaScript</span><span class="pt">Express.js</span><span class="pt">Node.js</span><span
-                class="pt">Groq API</span></div>
-          </div>
-        </div>
-        <div class="pc span2 rv" onclick="window.open('https://interview-forge-delta.vercel.app/', '_blank')">
-          <img src="/assets/images/Gemini_Generated_Image_smdx8zsmdx8zsmdx.png" alt="InterviewForge" />
-          <div class="pc-body">
-            <div class="pc-num">2</div>
-            <div class="pc-title">InterviewForge</div>
-            <div class="pc-desc">InterviewForge is a real-time technical interview platform featuring a collaborative
-              Monaco code editor with live multi-user sync, JWT-based authentication with role-based
-              interviewer/candidate flows, automated code execution with test-case grading, and interview integrity
-              tools like fullscreen enforcement and tab-switch detection.</div>
-            <div class="pc-tags"><span class="pt">React.js</span><span class="pt">MongoDB</span><span
-                class="pt">Socket.IO</span><span class="pt">Express.js</span><span class="pt">Node.js</span><span
-                class="pt">Monaco Editor</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <!-- <section id="experience">
-  <div class="exp-wrap">
-    <div class="sh rv">
-      <div class="sh-label">Experience</div>
-      <h2 class="sh-title">Where I've <em>worked.</em></h2>
-    </div>
-    <div class="tl rv d1">
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tc">
-          <div class="tc-top">
-            <div>
-              <div class="tc-role">Junior Software Developer Intern</div>
-              <div class="tc-co">Royals Webtech Pvt. Ltd — Nagpur</div>
-            </div>
-            <div class="tc-chip">Dec 2025 — Present</div>
-          </div>
-          <div class="tc-div"></div>
-          <ul class="tc-pts">
-            <li>Building and maintaining full-stack web apps in React, Node.js, and MongoDB in a live production environment.</li>
-            <li>Collaborating on real client projects — owning both frontend UI and backend API integration.</li>
-            <li>Shipping features with version control workflows, Vercel deployment, and agile team practices.</li>
-          </ul>
-          <div class="tc-tags"><span class="pt">React</span><span class="pt">Node.js</span><span class="pt">MongoDB</span><span class="pt">Express.js</span></div>
-        </div>
-      </div>
-      <div class="tl-item" style="margin-top:16px">
-        <div class="tl-dot dim"></div>
-        <div class="tc">
-          <div class="tc-top">
-            <div>
-              <div class="tc-role">Full Stack Developer Intern</div>
-              <div class="tc-co">GNCIPL — Noida (Remote)</div>
-            </div>
-            <div class="tc-chip">Jul — Aug 2025</div>
-          </div>
-          <div class="tc-div"></div>
-          <ul class="tc-pts">
-            <li>Developed full-stack features remotely across React frontend and REST API backend layers.</li>
-            <li>Contributed to a production codebase with a focus on clean, maintainable, responsive UI.</li>
-          </ul>
-          <div class="tc-tags"><span class="pt">React</span><span class="pt">REST APIs</span><span class="pt">JavaScript</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-  <!-- EDUCATION -->
-  <section id="education">
-    <div class="wrap">
-      <div class="sh rv">
-        <div class="sh-label">Education</div>
-        <h2 class="sh-title">My academic <em>journey.</em></h2>
-      </div>
-      <div class="edu-grid">
-        <div class="ec rv d1">
-          <div class="ec-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
-              stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
-              <path d="M6 12v5c3 3 9 3 12 0v-5" />
-            </svg></div>
-          <div>
-            <div class="ec-deg">B.Tech — Information Technology</div>
-            <div class="ec-school">RTM Nagpur University</div>
-            <div class="ec-meta"><span class="ec-yr">2023 — 2027</span><span class="ec-gr">6th Sem-SGPA 9.15</span>
-            </div>
-          </div>
-        </div>
-        <div class="ec rv d2">
-          <div class="ec-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
-              stroke-linecap="round" stroke-linejoin="round">
-              <rect x="2" y="3" width="20" height="14" rx="2" />
-              <path d="M8 21h8M12 17v4" />
-            </svg></div>
-          <div>
-            <div class="ec-deg">HSC — Science (12th)</div>
-            <div class="ec-school">Maharashtra State Board</div>
-            <div class="ec-meta"><span class="ec-yr">2023</span><span class="ec-gr">60%</span></div>
-          </div>
-        </div>
-        <div class="ec rv d3">
-          <div class="ec-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
-              stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
-            </svg></div>
-          <div>
-            <div class="ec-deg">SSC — 10th</div>
-            <div class="ec-school">Maharashtra State Board</div>
-            <div class="ec-meta"><span class="ec-yr">2021</span><span class="ec-gr">87.20%</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="contact-wrap">
-
-      <!-- Left -->
-      <div class="contact-info rv">
-
-        <div class="sh-label">Contact</div>
-
-        <h2 class="sh-title">
-          Let's build<br>
-          something <em>great.</em>
-        </h2>
-
-        <p class="contact-text">
-          Open to full-time opportunities, freelance work and internships.
-          Whether you have an idea or just want to connect, I'd love to hear from you.
-        </p>
-
-        <div class="info-card">
-          <div class="icon">📍</div>
-          <div>
-            <span>Location</span>
-            <h4>Nagpur, Maharashtra, India</h4>
-          </div>
-        </div>
-
-        <div class="info-card">
-          <div class="icon">💼</div>
-          <div>
-            <span>Status</span>
-            <h4>Open to Opportunities</h4>
-          </div>
-        </div>
-
-        <div class="socials">
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=priyanshunagle2020@gmail.com" target="_blank"
-            rel="noopener noreferrer">
-            Email
-          </a>
-          <a href="https://github.com/priyanshunagle14" target="_blank">GitHub</a>
-          <a href="https://linkedin.com/in/priyanshunagle14" target="_blank">LinkedIn</a>
-        </div>
-
-      </div>
-
-      <!-- Right -->
-      <div class="contact-card rv">
-
-        <h3>Send me a message</h3>
-
-        <form class="contact-form">
-
-          <div class="form-group">
-            <label>Full Name</label>
-            <input id="name" type="text" placeholder="John Doe">
-          </div>
-
-          <div class="form-group">
-            <label>Email</label>
-            <input id="email" type="email" placeholder="john@example.com">
-          </div>
-
-          <div class="form-group">
-            <label>Message</label>
-            <textarea id="message" placeholder="Tell me about your project..."></textarea>
-          </div>
-
-          <button class="btn-solid" type="submit">
-            Send Message →
-          </button>
-
-        </form>
-
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- CONTACT
-  <section id="contact">
-    <div class="contact-wrap">
-      <div class="ci rv">
-        <div>
-          <div class="sh-label">Contact</div>
-          <h2 class="sh-title">Let's build<br />something <em>great.</em></h2>
-        </div>
-        <p>Open to full-time roles, freelance projects, and internships. Have a project in mind or just mail me? My
-          inbox is always open.</p>
-        <div class="chip">
-          <svg class="chip-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
-            stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z" />
-            <circle cx="12" cy="10" r="3" />
-          </svg>
-          <div>
-            <div class="chip-lbl">Location</div>
-            <div class="chip-val">Nagpur, Maharashtra, India</div>
-          </div>
-        </div>
-        <div class="chip">
-          <svg class="chip-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
-            stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="7" width="20" height="14" rx="2" />
-            <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-          </svg>
-          <div>
-            <div class="chip-lbl">Status</div>
-            <div class="chip-val">Open to Opportunities</div>
-          </div>
-        </div>
-
-      </div> -->
-  <!-- <div class="rv d1">
-        <div id="fm" class="fm" role="alert"></div>
-        <form class="cf" id="cf" novalidate>
-          <p style="color: white; margin-bottom: 8px;">
-            Feel free to reach out via email for collaboration, opportunities, or any inquiries.
-          </p>
-
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=priyanshunagle2020@gmail.com" target="_blank"
-            style="color: white; text-decoration: underline;">
-            priyanshunagle2020@gmail.com
-          </a>
-          <div class="flinks">
-            <a href="https://github.com/priyanshunagle14" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/priyanshunagle14" target="_blank"
-              rel="noopener noreferrer">LinkedIn</a>
-          </div>
-
-      </div> -->
-  <!-- <section id="contact" class="section">
-        <div class="container">
-
-          <h2>Get In Touch</h2>
-          <p class="contact-subtitle">
-            Have an opportunity, project, or just want to say hello? Send me a message.
-          </p>
-
-          <form class="contact-form" id="contact-form" novalidate>
-
-            <div class="form-group">
-              <label for="name">Full Name</label>
-              <input type="text" id="name" name="name" placeholder="John Doe" required>
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input type="email" id="email" name="email" placeholder="john@example.com" required>
-            </div>
-
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..."
-                required></textarea>
-            </div>
-
-            <button type="submit" class="btn">
-              Send Message
-            </button>
-
-          </form>
-
-          <div class="contact-links">
-            <a href="mailto:priyanshunagle2020@gmail.com">
-              📧 priyanshunagle2020@gmail.com
-            </a>
-
-            <a href="https://github.com/priyanshunagle14" target="_blank" rel="noopener noreferrer">
-              GitHub
-            </a>
-
-            <a href="https://www.linkedin.com/in/priyanshunagle14" target="_blank" rel="noopener noreferrer">
-              LinkedIn
-            </a>
-          </div>
-
-        </div>
-      </section> -->
-  </div>
-
-  </section>
-
-  <footer>
-    <a href="#home" class="fl">P.N</a>
-    <span>© 2026 Priyanshu Nagle</span>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-  <script>
-    emailjs.init({
-      publicKey: "lVv0a0uK0vk_GDNrG",
-    });
-  </script>
-
-  <script src="./script.js"></script>
-</body>
-
+    <title>Priyanshu Nagle — Full Stack Developer (MERN)</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
