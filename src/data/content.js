@@ -10,7 +10,7 @@ export const profile = {
     "Building scalable, high-performance web applications using React, Node.js, Express.js and MongoDB.",
   photo: "/assets/images/photo1-EkqnwwCP.jpeg",
   resumeUrl:
-    "https://drive.google.com/file/d/10ofM9VVSIhAPaw1Hipm7bA5OczUKqfR0/view?usp=drive_link",
+    "https://drive.google.com/file/d/1yHHFKgKE6W_grWfdKWsF7KMdxAAkxn7D/view?usp=drive_link",
   location: "Nagpur, Maharashtra, India",
   status: "Open to Opportunities",
   rawEmail: "priyanshunagle2020@gmail.com",
